@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
-bool nh(int x)
+bool nh(int x)//x la nam
 {
 	if (x%4==0)
 		if (x%100==0)
@@ -15,8 +15,8 @@ bool nh(int x)
 }
 int main()
 {
-	int n, na, th, ng, i, j;
-	long long d=0;
+	int na, th, ng, i, j;//na: nam, th: thang, ng: ngay, i va j la bien dem trong for
+	long long d=0;//bien dem so ngay
 	printf("Nhap ngay: ");
 	scanf("%d", &ng);
 	while(ng>31||ng<0)
