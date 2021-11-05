@@ -33,15 +33,15 @@ int main()
 	}
 	printf("Nhap nam: ");
 	scanf("%d", &na);
-	while ((th==2)&&(nh(na)==0)&&(ng==29))
-	{
-		printf("Nhap lai ngay: ");
-		scanf("%d", &ng);
-	}
 	while(na<1)
 	{
 		printf("Nhap lai: ");
 		scanf("%d", &na);	
+	}
+	while ((th==2)&&(nh(na)==0)&&(ng==29))
+	{
+		printf("Nhap lai ngay: ");
+		scanf("%d", &ng);
 	}
 	for(i=1; i<=na; i++)
 	{
