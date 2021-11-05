@@ -49,7 +49,7 @@ int main()
 		{
 			d=d+365;
 			if (nh(i)==1)
-				d=d+366;
+				d=d+1;
 		}
 		else
 			for (j=1; j<=th; j++)
