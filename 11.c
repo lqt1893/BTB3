@@ -19,19 +19,19 @@ int main()
 	long long d=0;//bien dem so ngay
 	printf("Nhap ngay: ");
 	scanf("%d", &ng);
-	while(ng>31||ng<0)
+	while(ng>31||ng<0)//nhap sai ngay
 	{
 		printf("Nhap lai: ");
 		scanf("%d", &ng);	
 	}
 	printf("Nhap thang: ");
 	scanf("%d", &th);
-	while(th>12|th<0)
+	while(th>12|th<0)//nhap sai thang
 	{
 		printf("Nhap lai: ");
 		scanf("%d", &th);	
 	}
-	while ((th==2&&ng>29)||((th==4||th==6||th==9||th==11)&&ng>30))
+	while ((th==2&&ng>29)||((th==4||th==6||th==9||th==11)&&ng>30))//nhap sai ngay doi voi thang co 30 va thang 2
 	{
 		printf("Nhap lai ngay: ");
 		scanf("%d", &ng);
@@ -43,7 +43,7 @@ int main()
 		printf("Nhap lai: ");
 		scanf("%d", &na);	
 	}
-	while ((th==2)&&(nh(na)==0)&&(ng==29))
+	while ((th==2)&&(nh(na)==0)&&(ng==29))//nhap sai ngay doi voi nam nhuan
 	{
 		printf("Nhap lai ngay: ");
 		scanf("%d", &ng);
