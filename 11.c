@@ -19,14 +19,14 @@ int main()
 	long long d=0;//bien dem so ngay
 	printf("Nhap ngay: ");
 	scanf("%d", &ng);
-	while(ng>31||ng<0)//nhap sai ngay
+	while(ng>31||ng<1)//nhap sai ngay
 	{
 		printf("Nhap lai: ");
 		scanf("%d", &ng);	
 	}
 	printf("Nhap thang: ");
 	scanf("%d", &th);
-	while(th>12|th<0)//nhap sai thang
+	while(th>12||th<1)//nhap sai thang
 	{
 		printf("Nhap lai: ");
 		scanf("%d", &th);	
@@ -38,7 +38,7 @@ int main()
 	}
 	printf("Nhap nam: ");
 	scanf("%d", &na);
-	while(na<1)
+	while(na<1)//nhap sai nam
 	{
 		printf("Nhap lai: ");
 		scanf("%d", &na);	
