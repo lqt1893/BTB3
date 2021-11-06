@@ -31,6 +31,11 @@ int main()
 		printf("Nhap lai: ");
 		scanf("%d", &th);	
 	}
+	while ((th==2&&ng>29)||((th==4||th==6||th==9||th==11)&&ng>30))
+	{
+		printf("Nhap lai ngay: ");
+		scanf("%d", &ng);
+	}
 	printf("Nhap nam: ");
 	scanf("%d", &na);
 	while(na<1)
