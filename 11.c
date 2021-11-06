@@ -15,7 +15,7 @@ bool nh(int x)//x la nam
 }
 int main()
 {
-	int na, th, ng, i, j;//na: nam, th: thang, ng: ngay, i va j la bien dem trong for
+	short na, th, ng, i, j;//na: nam, th: thang, ng: ngay, i va j la bien dem trong for
 	long long d=0;//bien dem so ngay
 	printf("Nhap ngay: ");
 	scanf("%d", &ng);
